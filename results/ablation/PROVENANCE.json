@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-08-16T14:25:13.6168179+08:00",
+  "corpus": "NSF processed_300k_v2",
+  "scale": 300000,
+  "query_terms": 3,
+  "frozen_queries": 80,
+  "runs": 5,
+  "warmup_queries_per_unit": 10,
+  "seed": 20260711,
+  "benchmark_cpu": 0,
+  "order": "cyclic rotation of variants across independent processes",
+  "variants": [
+    "full",
+    "no-mask",
+    "no-bit-slice",
+    "no-pruning"
+  ],
+  "correctness": "every measured query checked against plaintext oracle",
+  "security_note": "only full retains the complete claimed leakage profile"
+}

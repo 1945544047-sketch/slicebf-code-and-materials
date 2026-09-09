@@ -1,0 +1,116 @@
+{
+  "corpora": {
+    "N100000": {
+      "avg_unique_terms_per_doc": 16.6187,
+      "file": "data\\processed_300k_v2\\corpus_N100000.jsonl",
+      "n_docs": 100000,
+      "sha256": "4be82090dab79d48884b3b222cb27ea352cfff117f3f8ac734df00b8988df67b",
+      "tokens_sorted_unique": true,
+      "unique_keyword_pairs": 1661867,
+      "vocab_size": 40244
+    },
+    "N150000": {
+      "avg_unique_terms_per_doc": 17.7859,
+      "file": "data\\processed_300k_v2\\corpus_N150000.jsonl",
+      "n_docs": 150000,
+      "sha256": "ed26b19a34fd5b178d7d76fce49acff5b31e68e11d263cc55fdccc98537ba234",
+      "tokens_sorted_unique": true,
+      "unique_keyword_pairs": 2667880,
+      "vocab_size": 54787
+    },
+    "N200000": {
+      "avg_unique_terms_per_doc": 18.6867,
+      "file": "data\\processed_300k_v2\\corpus_N200000.jsonl",
+      "n_docs": 200000,
+      "sha256": "7438cf5db5fce6ea39977de3a510e35f2a7b077a63a34bdc32ffbd626da0cdfa",
+      "tokens_sorted_unique": true,
+      "unique_keyword_pairs": 3737347,
+      "vocab_size": 61436
+    },
+    "N250000": {
+      "avg_unique_terms_per_doc": 19.0783,
+      "file": "data\\processed_300k_v2\\corpus_N250000.jsonl",
+      "n_docs": 250000,
+      "sha256": "4ba1273483c0c891a012f8cef829c08d5cd1fbc8e09d249f356ade8a28b7b9c4",
+      "tokens_sorted_unique": true,
+      "unique_keyword_pairs": 4769586,
+      "vocab_size": 66953
+    },
+    "N300000": {
+      "avg_unique_terms_per_doc": 19.1543,
+      "file": "data\\processed_300k_v2\\corpus_N300000.jsonl",
+      "n_docs": 300000,
+      "sha256": "027497d17303d329a848adaa64b1d54adad41b25aec3ad4c7a7b4a4ab1ccf272",
+      "tokens_sorted_unique": true,
+      "unique_keyword_pairs": 5746292,
+      "vocab_size": 71377
+    },
+    "N50000": {
+      "avg_unique_terms_per_doc": 14.2304,
+      "file": "data\\processed_300k_v2\\corpus_N50000.jsonl",
+      "n_docs": 50000,
+      "sha256": "42e9db255d0ff2a493d1144760432f7ee28f1894e72faa4fb9fc094ef27c3e69",
+      "tokens_sorted_unique": true,
+      "unique_keyword_pairs": 711521,
+      "vocab_size": 24448
+    }
+  },
+  "created_seed": 20260711,
+  "distinct_pool": 343292,
+  "documents_with_duplicate_tokens": 211623,
+  "duplicate_id_rows_removed": 156708,
+  "duplicate_token_occurrences_removed": 464629,
+  "main_size": 300000,
+  "normalization": "keep-first-id; sorted(set(tokens))",
+  "normalization_version": 2,
+  "query_workload": {
+    "arities": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "files": {
+      "oracle_results.json": {
+        "sha256": "50e3f8d3ee0b28d9dc0baa8c83063e5feafc9e2cc1de9e835e87742b63463421"
+      },
+      "q2_80.jsonl": {
+        "queries": 80,
+        "sha256": "b1665cb6136feaa4950805acfea9d74c6111511737644e897fd7f723877623a7"
+      },
+      "q3_80.jsonl": {
+        "queries": 80,
+        "sha256": "068968aa94dcc5c90e53fcae163c9ab36e3860598d0cad58a35edca3a445f8bc"
+      },
+      "q4_80.jsonl": {
+        "queries": 80,
+        "sha256": "72c18a7ca6e10699fc53071e51580e9ec54def7aadf4abb8629ed4ce653c3dc8"
+      },
+      "q5_80.jsonl": {
+        "queries": 80,
+        "sha256": "452dd946a8064ef33a645287390d0b4cb7c99adb382e7e8a696fc74ececb31c7"
+      }
+    },
+    "generation": "document-anchored; sorted tokens; fixed seed",
+    "generator_seed": 20260711,
+    "minimum_scale": 50000,
+    "oracle_scale": 300000,
+    "queries_per_arity": 80
+  },
+  "raw_token_occurrences_after_id_dedup": 7062362,
+  "reserve_file": "data\\processed_300k_v2\\reserve_pool.jsonl",
+  "reserve_sha256": "d1775886ce6ebed4e01aadc7b9f4de0d11a143c8eb3f839a16e03b61bdbfa15e",
+  "reserve_size": 43292,
+  "scale_sizes": [
+    50000,
+    100000,
+    150000,
+    200000,
+    250000,
+    300000
+  ],
+  "source": "data\\processed_500k\\corpus_N500000.jsonl",
+  "source_rows": 500000,
+  "source_sha256": "0ed4d267a506dead076d89e7357f0c4668fd5fbe8f289ca9fd281fc8c0536805",
+  "unique_keyword_pairs_after_token_dedup": 6597733
+}
