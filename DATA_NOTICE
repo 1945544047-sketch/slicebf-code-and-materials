@@ -1,0 +1,24 @@
+Data and experimental-material notice
+
+The frozen corpus in data/frozen is derived from award data published by the
+U.S. National Science Foundation (NSF) Award Search:
+
+https://www.nsf.gov/funding/award-search
+
+NSF states that award data posted on its website, including award abstract
+text, is in the public domain and is not subject to copyright. The distributed
+corpus contains only award identifiers and token lists; it does not include
+proposal text.
+
+The project-created query workloads, oracle outputs, numerical measurement
+tables, reference figures, and processing/plotting scripts are released under
+the MIT License in the repository root. The SliceBF authors assert no
+additional copyright restriction over the factual contents of the processed
+NSF snapshot.
+
+The bundled cpp/third_party/json.hpp retains its own embedded third-party
+copyright and MIT license notices. No comparison-scheme implementation is
+distributed in this repository.
+
+All data and experimental materials are provided without warranty. Users
+should cite the SliceBF paper and the NSF Award Search when reusing them.
